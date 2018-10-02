@@ -1,10 +1,11 @@
-function getAverage (a,b,c,d,e,f) {
+var a = "apple";
+var b = 8;
 
-    var average = (a + b + c + d + e +f) / 6;
-    console.log(average);
-    return average;
+if(isNaN(a)){
 
+    console.log("that aint even a number, thickie");
+
+} else{
+
+    console.log("meaning of life is " + (a*b));
 }
-
-var myResult = getAverage(7,8,13,23,24,5);
-console.log("the average is " + myResult);
