@@ -7,7 +7,11 @@ myCar.drive = function(){
 
 myCar.drive();
 
-myCar2 = {maxSpeed: 70, driver: "Asia", drive: function(){console.log("now driving again");}};
+myCar2 = {
+    maxSpeed: 70, 
+    driver: "Asia", 
+    drive: function(){console.log("now driving again");}
+};
 
 console.log(myCar2.maxSpeed);
 myCar2.drive();
